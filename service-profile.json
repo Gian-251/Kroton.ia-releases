@@ -1,0 +1,88 @@
+﻿{
+  "scanAllRunningServices": true,
+  "defaultTargetStartupType": "Manual",
+  "candidateNamePrefixes": [
+    "Xbox",
+    "Xbl",
+    "WMPNetworkSvc",
+    "MapsBroker",
+    "Fax",
+    "PrintNotify",
+    "RemoteRegistry",
+    "OneSyncSvc",
+    "CDPUserSvc"
+  ],
+  "candidateDisplayContains": [
+    "Xbox",
+    "Game Bar",
+    "Windows Media Player Network Sharing",
+    "Fax",
+    "Mapas",
+    "Map Service",
+    "Remote Registry"
+  ],
+  "criticalNamePrefixes": [
+    "WinDefend",
+    "WdNisSvc",
+    "SecurityHealthService",
+    "EventLog",
+    "RpcSs",
+    "DcomLaunch",
+    "PlugPlay",
+    "Power",
+    "LanmanWorkstation",
+    "Dhcp",
+    "Dnscache",
+    "nsi",
+    "BFE",
+    "MpsSvc",
+    "CryptSvc",
+    "TrustedInstaller",
+    "wuauserv",
+    "UsoSvc",
+    "BITS",
+    "TermService",
+    "ProfSvc",
+    "LSM",
+    "Schedule"
+  ],
+  "criticalDisplayContains": [
+    "Windows Defender",
+    "Security",
+    "RPC",
+    "DHCP",
+    "DNS",
+    "Windows Update",
+    "Firewall",
+    "Cryptographic"
+  ],
+  "keepRunningNamePrefixes": [
+    "AudioEndpointBuilder",
+    "Audiosrv",
+    "WlanSvc",
+    "NlaSvc",
+    "Netman",
+    "SamSs",
+    "UserManager",
+    "BrokerInfrastructure",
+    "StateRepository",
+    "AppXSvc",
+    "ClipSVC",
+    "Themes",
+    "FontCache",
+    "TimeBrokerSvc",
+    "DPS"
+  ],
+  "keepRunningDisplayContains": [
+    "Audio",
+    "Network",
+    "Conexao de Rede",
+    "Perfil de Rede",
+    "User Manager",
+    "Gerenciador de Usuarios"
+  ],
+  "forceDisableNames": [
+    "RemoteRegistry",
+    "Fax"
+  ]
+}

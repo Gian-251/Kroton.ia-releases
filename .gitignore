@@ -1,0 +1,5 @@
+KrotonIA.exe
+.build-localappdata/
+runtime/
+backup/
+dist/
